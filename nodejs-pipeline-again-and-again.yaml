@@ -15,7 +15,7 @@ spec:
       description: Source code repository
   workspaces:
     - name: pipeline-shared-data
-    description: |
+      description: |
         This workspace stores the cloned repository and is available to all steps
   tasks:
     - name: clone-repository
